@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink; /* Couleur noire pour l'arrière-plan */
+  }
+  
+  /* Navigation */
+  .navbar {
+    background-color:purple;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Liste de menu */
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacement entre les éléments */
+  }
+  
+  .menu li {
+    position: relative; /* Nécessaire pour la ligne rouge en hover */
+  }
+  
+  /* Liens */
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Lien survolé */
+  .menu a:hover {
+    color:purple; /* Rouge pour les liens survolés */
+  }
+  
+  /* Ligne rouge sous le texte */
+  .menu a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: purple; /* Rouge */
+    margin: 5px auto 0 auto;
+    transition: width 0.3s ease;
+  }
+  
+  /* Survol de la ligne rouge */
+  .menu a:hover::after {
+    width: 100%; /* La ligne s'étend sous tout le texte */
+  }

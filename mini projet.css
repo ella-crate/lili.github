@@ -1,0 +1,127 @@
+p {
+    background-color: pink ;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6; /* Improves readability */
+    text-align: justify; /* Justifies text alignment */
+}
+table{
+    width: 2000;
+    height:3000;
+    border:solid 2px black;
+    
+}
+h1{
+    text-align: center;
+    background-color: pink;
+}
+body{
+    background-color: palevioletred;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838}
+    footer {
+        
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    div{
+        background-color:pink;
+    }
+    h1{
+        height: 150px;
+        
+    }
+      /* Navigation */
+  .navbar {
+    background-color:black;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Liste de menu */
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacement entre les éléments */
+  }
+  
+  .menu li {
+    position: relative; /* Nécessaire pour la ligne rouge en hover */
+  }
+  
+  /* Liens */
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Lien survolé */
+  .menu a:hover {
+    color:purple; /* Rouge pour les liens survolés */
+  }
+  
+  /* Ligne rouge sous le texte */
+  .menu a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: purple; /* Rouge */
+    margin: 5px auto 0 auto;
+    transition: width 0.3s ease;
+  }
+  
+  /* Survol de la ligne rouge */
+  .menu a:hover::after {
+    width: 100%; /* La ligne s'étend sous tout le texte */
+  }
+.class2{
+    display: block;
+    margin: 20px auto; /* Centrage horizontal avec une marge */
+    width: 40%; /* Réduction de la taille de l'image */
+    height:40%;
+}
+.img{
+  float:left;
+  margin-right:10px;
+}
+   
